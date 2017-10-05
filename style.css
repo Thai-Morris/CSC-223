@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700');
 
+margin-right: auto;
+margin-left: auto;
+
 
 elment {
     margin-right: auto;
@@ -16,7 +19,7 @@ elment {
 
 h1 {
 	font-family: 'Great Vibes', cursive;
-	text-align: center;
+
 	
 }
 
@@ -28,11 +31,6 @@ ol {
 
 p { 
 	font-family: 'Lora', serif;
-}
-
-header {
-	text-align: center;
-	
 }
 
 
