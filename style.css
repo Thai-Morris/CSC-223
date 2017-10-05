@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700');
 
-element {
+head {
     margin-right: auto;
     margin-left: auto;
     width: 8em;
