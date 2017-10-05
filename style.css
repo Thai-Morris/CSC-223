@@ -1,12 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Libre+Barcode+39+Text|Passion+One:400,700,900&subset=latin-ext');
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700');
 
+element {
+    margin-right: auto;
+    margin-left: auto;
+    width: 8em;
+}
+
+#header {
+	
+	margin: 20px;
+	padding: 30px;
+	border: 5px dashed #FF0000;
+	max-width: 300px;
+	
+}
+
+
+
 h1 {
-	font-family: 'Passion One', cursive;
+	font-family: 'Great Vibes', cursive;
 	
 }
 
 p { 
 	font-family: 'Lora', serif;
 }
+
+
+
 
