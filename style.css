@@ -7,7 +7,6 @@ elment {
     margin-right: auto;
     margin-left: auto;
     width: 8em;
-	text-align: center;
 }
 
 
@@ -19,6 +18,11 @@ h1 {
 
 p { 
 	font-family: 'Lora', serif;
+}
+
+#header {
+	text-align: center;
+	
 }
 
 
