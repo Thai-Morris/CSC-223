@@ -83,6 +83,7 @@ p {
 	width: 325px;
     height: 325px;
     border: 3px dashed grey;
+	opacity: 0.75;
 }
 
 
@@ -97,14 +98,62 @@ p {
 }
 
 .warning {
+	padding: 9px;
+	margin-left: 25px;
     border: 2px solid red;
     border-radius: 5px;
 	background-color: red;
 	border-style: solid;
 	width: 400px;
     height: 75px;
+	opacity: 0.90;
+}
+
+
+.pro {
+	background-image: url("images/home.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
 	
 }
+
+/* Desktop styles */
+#portfolio {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pro {
+	padding-top: 100px;
+}
+
+.yay {
+	
+	padding-top: 25%;
+	
+}
+
+.item {
+	width: 300px;
+	display: inline-block;
+	background-color: #CCC;
+	text-align: center;
+}
+
+@media (max-width: 720px) {
+
+	/* Mobile styles */
+	#portfolio{
+	width: 100%;
+	border: none;
+	margin: 0 auto;
+	}
+
+}
+
+
 
 
 
