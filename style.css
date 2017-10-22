@@ -74,6 +74,7 @@ p {
 }
 
 .box {
+	padding: 10px;
 	margin-right: auto;
     margin-left: auto;
 	margin-bottom: auto;
@@ -118,6 +119,7 @@ p {
 	
 }
 
+
 /* Desktop styles */
 #portfolio {
 	position: relative;
@@ -141,21 +143,4 @@ p {
 	background-color: #CCC;
 	text-align: center;
 }
-
-@media (max-width: 720px) {
-
-	/* Mobile styles */
-	#portfolio{
-	width: 100%;
-	border: none;
-	margin: 0 auto;
-	}
-
-}
-
-
-
-
-
-
 
