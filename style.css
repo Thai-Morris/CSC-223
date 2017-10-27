@@ -87,6 +87,13 @@ p {
 	opacity: 0.75;
 }
 
+#DATE {
+
+	padding-left: 700px;
+	font-weight: bold;
+	color: white;
+}
+
 
 .love { font-family: 'Great Vibes', cursive;
 
