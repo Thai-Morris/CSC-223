@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Filtering The List</title>
+</head>
+
+<style type="text/css">
+    .highlighted {
+        background-color: yellow;
+    }
+</style>
+<!--- <img src = "" lightbox = ""-->
+<body>
+<h1>Favorite Food</h1>
+<ul>
+    <li class="favorite-item">Pizza</li>
+    <li class="favorite-item">Ice Cream</li>
+    <li class="favorite-item">Gelato</li>
+    <li class="favorite-item">Pie</li>
+    <li class="favorite-item">Chocolate (anything)</li>
+</ul>
+<button id="filter">Filter</button>
+<button id="highlight">Highlight</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="jquery.color.plus-names-2.1.2.min.js"></script>
+<script type="text/javascript">
+
+    $("#filter").on("click", function(){
+       $(".favorite-item:first-child").fadeOut(500, function() {
+         this.remove();
+      });
+    });
+
+    $("#highlight").on("click", function() {
+       $(".favorite-item:first-child").animate({
+	   backgroundColor: "#FFFF00"
+	   }, 2000);
+    });
+
+</script>
+</body>
+</html>
